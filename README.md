@@ -8,19 +8,15 @@ The project closely follows **real-world data engineering practices**, where ing
 
 ---
 
-##  Architecture Overview
+## Architecture Overview
 
-Spotify Dataset (Kaggle)
-↓
-Azure Data Factory (ADF)
-↓
-Azure Data Lake Storage Gen2 (Bronze)
-↓
-Azure Databricks (Silver & Gold)
-↓
-Delta Tables (Managed)
-↓
-Power BI Dashboard
+- Spotify Dataset (Kaggle)
+- Azure Data Factory (ADF)
+- Azure Data Lake Storage Gen2 (Bronze)
+- Azure Databricks (Silver & Gold)
+- Delta Tables (Managed)
+- Power BI Dashboard
+
 
 ---
 
@@ -137,18 +133,5 @@ Power BI connects directly to **Databricks SQL Warehouse** and consumes **Gold-l
 
 ---
 
-## 📌 Future Enhancements
-
-- Incremental loading using watermarking
-- Job scheduling with Databricks Workflows or ADF triggers
-- Data quality checks
-- Partitioning and performance optimization
-- Advanced governance using Unity Catalog external locations
-
----
-
-## 🧑‍💻 Author
-
-**Sayan Manna**  
-Aspiring Data Engineer  
+ 
 
